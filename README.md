@@ -20,4 +20,4 @@ Implementar o caso de sucesso do módulo (procedimento ou função);
 Selecionar casos de teste para verificar o funcionamento de cada módulo;
 Executar os casos de teste planejados para o módulo;
 Criar um relatório de execução de testes que contenha os casos de teste;
-Implementar os casos especiais;
+Implementar os casos especiais; A evolução do backlog do produto a cada semana; Documentação das funcionalidades do software.
