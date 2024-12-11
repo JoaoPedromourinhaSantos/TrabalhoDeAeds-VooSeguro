@@ -8,4 +8,5 @@ A proposta deste trabalho é aplicar nossos conhecimentos de Análise e Estrutur
  Cadastro de Passageiros, cadastro de voo, cadastro de tripulação. cadastro de assento, função de reserva, função de baixa em reserva, função de pesquisa e função de programa de fidelidade.
 
 * Nossos objetivos especificos e secundários são:
- 
+ - ppp
+ - j
