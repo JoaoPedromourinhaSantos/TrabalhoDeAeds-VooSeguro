@@ -8,5 +8,10 @@ A proposta deste trabalho é aplicar nossos conhecimentos de Análise e Estrutur
  Cadastro de Passageiros, cadastro de voo, cadastro de tripulação. cadastro de assento, função de reserva, função de baixa em reserva, função de pesquisa e função de programa de fidelidade.
 
 * Nossos objetivos especificos e secundários são:
- - ppp
- - j
+Definir a assinatura dos módulos (procedimentos e funções) e documentar seus parâmetros; 
+Documentar o módulo (procedimento ou função) indicando seu propósito, parâmetros de entrada e saída;
+Implementar o caso de sucesso do módulo (procedimento ou função);
+Selecionar casos de teste para verificar o funcionamento de cada módulo;
+Executar os casos de teste planejados para o módulo;
+Criar um relatório de execução de testes que contenha os casos de teste;
+Implementar os casos especiais;
