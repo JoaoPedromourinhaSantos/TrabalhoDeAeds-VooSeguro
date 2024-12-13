@@ -110,6 +110,7 @@ avião. - Validação da presença de piloto e copiloto para ativação do voo. 
 
 ### Cadastro da Tripulação
 
+```c
 int piloto, copiloto, comissario;
     printf("Digite o codigo do piloto: ");
     scanf("%d", &piloto);
@@ -132,7 +133,7 @@ int piloto, copiloto, comissario;
     
 ### Entrada de Dados do Voo
 
-  // Entrada de dados do voo
+ ```c
     printf("Digite a data do voo (dd/mm/aaaa): ");
     scanf(" %[^\n]", v.data);
     printf("Digite a hora do voo (hh:mm): ");
