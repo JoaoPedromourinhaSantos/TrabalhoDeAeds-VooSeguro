@@ -85,10 +85,10 @@ controle da evolução do projeto.
 
 ## Links Importantes
 
-| Repositório no GitHub               | https://github.com/pedro-lanzaa/hoteldescansogarantido                  |
+| Repositório no GitHub               |                  |
 |-------------------------------------|---------------------------------------------------------------------------|
-| Repositório no Replit               | https://replit.com/@pedro-lanza/HotelDescansoGarantido#main.c            |
-| Vídeo de apresentação no YouTube    | https://www.youtube.com/watch?v=4kH1ARzC8NU                              |
+| Repositório no Replit               | https://replit.com/join/tmocpxusxs-joaopedro1021           |
+| Vídeo de apresentação no YouTube    |    https://youtu.be/30m3-z6MxBY                        |
 
 ---
 
@@ -99,12 +99,21 @@ controle da evolução do projeto.
 | 1  | Cadastro de Clientes      | Nome, CEP, Telefone          | Cliente cadastrado com sucesso    | Aprovado  |
 | 2  | Cadastro de Tripulação  | Nome, Telefone, Cargo        | Membro cadastrado com sucesso       | Aprovado  |
 | 3  | Cadastro de Voo      | data, hora, origem, destino, tarifa, tripulação e
-avião. - Validação da presença de piloto e copiloto para ativação do voo. | Estadia registrada com sucesso  | Aprovado  |
-| 4  | Controle de Quartos       | Datas com quartos indisponíveis | Todos os quartos ocupados       | Aprovado  |
-| 5  | Pesquisa de Clientes      | ID ou Nome                   | Dados do cliente exibidos         | Aprovado  |
-| 6  | Pesquisa de Quarto        | ID inexistente               | Quarto não encontrado             | Aprovado  |
+avião. | Voo registrado com sucesso  | Aprovado  |
+| 4  | Cadastro de Assento     | voo, numero de assentos | Assento cadastrado com sucesso     | Aprovado  |
+| 5  | Reserva      | Nome, codigo do cliente, codigo do voo                  | Reserva feito com sucesso         | Aprovado  |
+| 6  | Baixa em Reserva       | Nome, codigo do cliente, codigo do voo              | Baixa feita com sucesso             | Aprovado  |
+| 7 |  Pesquisa      |Código                | Cliente/Tripulação/Voo encontrado             | Aprovado  |
+| 8  | Programa de Fidelidade      | Nome, codigo do cliente              | Cliente encontrado, pontuação X             | Aprovado  |
 
 ---
+
+
+## Conclusão
+
+O sistema planejado visa atender integralmente às necessidades propostas,
+garantindo um fluxo funcional eficiente para o gerenciamento de voos. A utilização de
+Scrum possibilita adaptação e melhoria contínua ao longo do desenvolvimento.
 
 ## Principais Trechos de Código
 
@@ -148,11 +157,7 @@ int piloto, copiloto, comissario;
     scanf("%f", &v.tarifa);
 
 
-## Conclusão
 
-O sistema planejado visa atender integralmente às necessidades propostas,
-garantindo um fluxo funcional eficiente para o gerenciamento de voos. A utilização de
-Scrum possibilita adaptação e melhoria contínua ao longo do desenvolvimento.
 
 
 
