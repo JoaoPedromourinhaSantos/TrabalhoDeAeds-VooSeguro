@@ -76,7 +76,7 @@ controle da evolução do projeto.
 
 | Sprint | Atividades Realizadas                                      | Datas                |
 |--------|------------------------------------------------------------|----------------------|
-| 1      | Definição da estrutura básica do sistema e desenvolvimento dos cadastros de passageiro, tripulação, voo e assento | 26/11/2024 a 29/11/2024 |
+| 1      | Definição da estrutura básica do sistema (Matheus) e desenvolvimento dos cadastros de passageiro (Joao), tripulação (Joao), voo (Matheus) e assento (joao) | 26/11/2024 a 29/11/2024 |
 | 2      | Implementação do sistema de pontos de fidelidade, sistema de reserva e baixa em reserva | 30/11/2024 a 04/12/2024 |
 | 3      | Implementação do sistema de Pesquisa + reparação          | 05/12/2024 a 10/12/2024 |
 | 4      | Testes automatizados e ajustes finais no sistema.          | 11/12/2024 a 13/12/2024 |
