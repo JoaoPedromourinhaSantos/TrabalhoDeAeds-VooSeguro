@@ -7,7 +7,7 @@ A Voo Seguro é uma companhia aérea fictícia que visa garantir a satisfação 
 * **Professores**: Carlos Ribas e José Laerte Xavier.
 * **Data**: 2° Semestre de 2024.
 
-* LINK DO VÍDEO: https://youtu.be/30m3-z6MxBY
+* LINK DO VÍDEO DE APRESENTAÇÃO: https://youtu.be/30m3-z6MxBY
 
 # Proposta
 A proposta deste trabalho é aplicar nossos conhecimentos de Análise e Estrutura de Dados e sua lógica de programação e mesclar com nossos conhecimentos gerais adquiridos nos conteúdos que foram aplicados e absorvidos na matéria de Fundamentos de Engenharia de Software.
