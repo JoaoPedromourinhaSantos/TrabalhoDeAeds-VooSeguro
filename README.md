@@ -78,7 +78,7 @@ controle da evolução do projeto.
 |--------|------------------------------------------------------------|----------------------|
 | 1      | Definição da estrutura básica do sistema (Matheus) e desenvolvimento dos cadastros de passageiro (João), tripulação (João), voo (Matheus) e assento (João) | 26/11/2024 a 29/11/2024 |
 | 2      | Implementação do sistema de pontos de fidelidade ( Matheus), sistema de reserva e baixa em reserva (João) | 30/11/2024 a 04/12/2024 |
-| 3      | Implementação do sistema de Pesquisa (João) + reparação (João)          | 05/12/2024 a 10/12/2024 |
+| 3      | Implementação do sistema de Pesquisa (Matheus) + reparação (João)          | 05/12/2024 a 10/12/2024 |
 | 4      | Testes automatizados e ajustes finais no sistema. (Matheus)         | 11/12/2024 a 13/12/2024 |
 
 ---
