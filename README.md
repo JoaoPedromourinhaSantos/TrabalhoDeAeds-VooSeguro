@@ -44,4 +44,11 @@ todos os voos de um passageiro.
 de pontos ao longo de múltiplos voos.
 
 
+## Metodologia:
+
+O desenvolvimento segue a metodologia Scrum, com organização do backlog do
+produto e alocação de tarefas em sprints de 3 a 4 dias. Cada funcionalidade é
+responsabilidade de um membro do grupo, garantindo divisão eficiente do trabalho e
+controle da evolução do projeto.
+
 ---
