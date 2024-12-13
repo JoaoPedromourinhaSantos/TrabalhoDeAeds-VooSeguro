@@ -27,20 +27,20 @@ Implementar os casos especiais; A evolução do backlog do produto a cada semana
 
 ## Funcionalidades a serem Implementadas
 
- **Cadastro de Passageiro:** - Garante que não haja dois passageiros com o mesmo
+ - **Cadastro de Passageiro:** - Garante que não haja dois passageiros com o mesmo
 código.
-**Cadastro de Tripulação:** - Cada membro deve possuir um cargo específico. - Garantia
+ - **Cadastro de Tripulação:** - Cada membro deve possuir um cargo específico. - Garantia
 de unicidade de código para membros da tripulação. 
-• **Cadastro de Voo:** - Informações sobre data, hora, origem, destino, tarifa, tripulação e
+-  **Cadastro de Voo:** - Informações sobre data, hora, origem, destino, tarifa, tripulação e
 avião. - Validação da presença de piloto e copiloto para ativação do voo.
-• **Cadastro de Assento:** - Registro de assentos para cada voo.
-• **Reserva:** - Verificação da disponibilidade de assento antes de reservar. - Prevenção
+- **Cadastro de Assento:** - Registro de assentos para cada voo.
+- **Reserva:** - Verificação da disponibilidade de assento antes de reservar. - Prevenção
 de reservas duplicadas para o mesmo assento no mesmo voo.
-• **Baixa em Reserva:** - Liberação do assento e atualização do status para livre. - Cálculo
+- **Baixa em Reserva:** - Liberação do assento e atualização do status para livre. - Cálculo
 do valor total, conforme tarifa do voo.
-• **Pesquisa:** - Busca de passageiros e tripulação por nome ou código. - Listagem de
+- **Pesquisa:** - Busca de passageiros e tripulação por nome ou código. - Listagem de
 todos os voos de um passageiro.
-• **Programa de Fidelidade:** - Cada voo concede 10 pontos ao passageiro. - Acumulação
+- **Programa de Fidelidade:** - Cada voo concede 10 pontos ao passageiro. - Acumulação
 de pontos ao longo de múltiplos voos.
 
 
