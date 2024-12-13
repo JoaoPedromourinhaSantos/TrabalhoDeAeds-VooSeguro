@@ -96,7 +96,7 @@ controle da evolução do projeto.
 
 | ID | Funcionalidade            | Entrada                      | Saída Esperada                   | Resultado |
 |----|---------------------------|------------------------------|-----------------------------------|-----------|
-| 1  | Cadastro de Clientes      | Nome, CEP, Telefone          | Cliente cadastrado com sucesso    | Aprovado  |
+| 1  | Cadastro de Clientes      | Nome, Endereço, Telefone          | Cliente cadastrado com sucesso    | Aprovado  |
 | 2  | Cadastro de Tripulação  | Nome, Telefone, Cargo        | Membro cadastrado com sucesso       | Aprovado  |
 | 3  | Cadastro de Voo      | data, hora, origem, destino, tarifa, tripulação e avião. | Voo registrado com sucesso  | Aprovado  |
 | 4  | Cadastro de Assento     | voo, numero de assentos | Assento cadastrado com sucesso     | Aprovado  |
