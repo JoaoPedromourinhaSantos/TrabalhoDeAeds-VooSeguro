@@ -51,4 +51,109 @@ produto e alocação de tarefas em sprints de 3 a 4 dias. Cada funcionalidade é
 responsabilidade de um membro do grupo, garantindo divisão eficiente do trabalho e
 controle da evolução do projeto.
 
+## Regras de Negócio
+
+- Limite máximo de **500 reservas período**.
+-  Limite máximo de **50 cadastro tripulação**.
+- Limite máximo de **50 voos regisrados**.
+- Limite máximo de **200 acentos disponíveis p/voo**.
+- Limite máximo de **100 passageiros cadastrados**.
+- Validação de **telefones** (9 a 12 dígitos) e **datas** (formato DD/MM/AAAA).  
+
+
+---
+
+## Arquitetura do Sistema
+
+### Estrutura de Arquivos
+- **src/main.c**: Código principal do sistema.
+- **docs/**: Documentação detalhada do projeto.
+- **data/**: Contém arquivos de exemplo com dados de clientes e funcionários.
+
+---
+
+## Planejamento e Sprints
+
+| Sprint | Atividades Realizadas                                      | Datas                |
+|--------|------------------------------------------------------------|----------------------|
+| 1      | Definição da estrutura básica do sistema e desenvolvimento dos cadastros de passageiro, tripulação, voo e assento | 26/11/2024 a 29/11/2024 |
+| 2      | Implementação do sistema de pontos de fidelidade, sistema de reserva e baixa em reserva | 30/11/2024 a 04/12/2024 |
+| 3      | Implementação do sistema de Pesquisa + reparação          | 05/12/2024 a 10/12/2024 |
+| 4      | Testes automatizados e ajustes finais no sistema.          | 11/12/2024 a 13/12/2024 |
+
+---
+
+## Links Importantes
+
+| Repositório no GitHub               | https://github.com/pedro-lanzaa/hoteldescansogarantido                  |
+|-------------------------------------|---------------------------------------------------------------------------|
+| Repositório no Replit               | https://replit.com/@pedro-lanza/HotelDescansoGarantido#main.c            |
+| Vídeo de apresentação no YouTube    | https://www.youtube.com/watch?v=4kH1ARzC8NU                              |
+
+---
+
+## Casos de Teste
+
+| ID | Funcionalidade            | Entrada                      | Saída Esperada                   | Resultado |
+|----|---------------------------|------------------------------|-----------------------------------|-----------|
+| 1  | Cadastro de Clientes      | Nome, CEP, Telefone          | Cliente cadastrado com sucesso    | Aprovado  |
+| 2  | Cadastro de Tripulação  | Nome, Telefone, Cargo        | Membro cadastrado com sucesso       | Aprovado  |
+| 3  | Cadastro de Voo      | data, hora, origem, destino, tarifa, tripulação e
+avião. - Validação da presença de piloto e copiloto para ativação do voo. | Estadia registrada com sucesso  | Aprovado  |
+| 4  | Controle de Quartos       | Datas com quartos indisponíveis | Todos os quartos ocupados       | Aprovado  |
+| 5  | Pesquisa de Clientes      | ID ou Nome                   | Dados do cliente exibidos         | Aprovado  |
+| 6  | Pesquisa de Quarto        | ID inexistente               | Quarto não encontrado             | Aprovado  |
+
+---
+
+## Principais Trechos de Código
+
+### Cadastro da Tripulação
+
+int piloto, copiloto, comissario;
+    printf("Digite o codigo do piloto: ");
+    scanf("%d", &piloto);
+    if (buscarTripulacao(piloto) == -1) {
+        printf("Erro: Piloto nao encontrado. Cadastro de voo cancelado.\n");
+        return;
+    }
+    printf("Digite o codigo do copiloto: ");
+    scanf("%d", &copiloto);
+    if (buscarTripulacao(copiloto) == -1) {
+        printf("Erro: Copiloto nao encontrado. Cadastro de voo cancelado.\n");
+        return;
+    }
+    printf("Digite o codigo do comissario: ");
+    scanf("%d", &comissario);
+    if (buscarTripulacao(comissario) == -1) {
+        printf("Erro: Comissario nao encontrado. Cadastro de voo cancelado.\n");
+        return;
+    }
+    
+### Entrada de Dados do Voo
+
+  // Entrada de dados do voo
+    printf("Digite a data do voo (dd/mm/aaaa): ");
+    scanf(" %[^\n]", v.data);
+    printf("Digite a hora do voo (hh:mm): ");
+    scanf(" %[^\n]", v.hora);
+    printf("Digite a origem do voo: ");
+    scanf(" %[^\n]", v.origem);
+    printf("Digite o destino do voo: ");
+    scanf(" %[^\n]", v.destino);
+    printf("Digite o codigo do aviao: ");
+    scanf("%d", &v.codigoAviao);
+    printf("Digite a tarifa do voo: ");
+    scanf("%f", &v.tarifa);
+
+
+## Conclusão
+
+O sistema planejado visa atender integralmente às necessidades propostas,
+garantindo um fluxo funcional eficiente para o gerenciamento de voos. A utilização de
+Scrum possibilita adaptação e melhoria contínua ao longo do desenvolvimento.
+
+
+
+
 ---
