@@ -98,8 +98,7 @@ controle da evolução do projeto.
 |----|---------------------------|------------------------------|-----------------------------------|-----------|
 | 1  | Cadastro de Clientes      | Nome, CEP, Telefone          | Cliente cadastrado com sucesso    | Aprovado  |
 | 2  | Cadastro de Tripulação  | Nome, Telefone, Cargo        | Membro cadastrado com sucesso       | Aprovado  |
-| 3  | Cadastro de Voo      | data, hora, origem, destino, tarifa, tripulação e
-avião. | Voo registrado com sucesso  | Aprovado  |
+| 3  | Cadastro de Voo      | data, hora, origem, destino, tarifa, tripulação e avião. | Voo registrado com sucesso  | Aprovado  |
 | 4  | Cadastro de Assento     | voo, numero de assentos | Assento cadastrado com sucesso     | Aprovado  |
 | 5  | Reserva      | Nome, codigo do cliente, codigo do voo                  | Reserva feito com sucesso         | Aprovado  |
 | 6  | Baixa em Reserva       | Nome, codigo do cliente, codigo do voo              | Baixa feita com sucesso             | Aprovado  |
