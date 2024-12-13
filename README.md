@@ -87,7 +87,7 @@ controle da evolução do projeto.
 
 | Repositório no GitHub               |   https://github.com/matheusfgs/TrabalhoDeAeds-VooSeguro.git               |
 |-------------------------------------|---------------------------------------------------------------------------|
-| Repositório no Replit               | https://replit.com/join/tmocpxusxs-joaopedro1021           |
+
 | Vídeo de apresentação no YouTube    |    https://youtu.be/30m3-z6MxBY                        |
 
 ---
